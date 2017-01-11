@@ -1,0 +1,29 @@
+@import "variables";
+a.button{
+  border:solid 2px $H1white;
+  color: $H1white;
+  padding:15px;
+  padding-right:20px;
+  padding-left:20px;
+  transition:0.4s ease;
+  text-decoration:none;
+  &:hover{
+    border:solid 2px $buttonBlue;
+    background: $buttonBlue;
+    color:rgba(255, 255, 255, 0.78);
+    cursor:pointer;
+  }
+}
+
+@media  (max-width: 768px) {
+ a.button{
+  border:solid 2px $H1white;
+  color: $H1white;
+  padding:10px;
+  padding-right:10px;
+  padding-left:10px;
+  transition:0.4s ease;
+
+}
+  
+}

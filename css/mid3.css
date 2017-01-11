@@ -1,0 +1,185 @@
+div#mid3_wrapper {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 850px) {
+  div#mid3_wrapper {
+    height: auto;
+  }
+}
+div#mid3_wrapper div.main_wrapper {
+  top: 0;
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper {
+  height: 400px;
+  padding-top: 40px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+@media (max-width: 850px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper {
+    width: 100%;
+  }
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper.left {
+  /* @media (max-width: 500px){
+     border-bottom:solid 1px $lightgrey;
+     height:190px;
+     top:0;
+     padding-top:0;
+     width:100%;
+    
+     vertical-align:top;
+     box-shadow: 0 2px 2px $lightgrey;
+   }*/
+}
+@media (max-width: 850px) and (min-width: 600px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper.left {
+    border-bottom: solid 1px #a4a4a4;
+    height: 300px;
+    margin-bottom: 100px;
+    padding-top: 0;
+    width: 55%;
+    padding-top: 3%;
+    box-shadow: 0 2px 2px #a4a4a4;
+  }
+}
+@media (max-width: 600px) and (min-width: 360px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper.left {
+    border-bottom: solid 1px #a4a4a4;
+    height: 280px;
+    top: 0;
+    padding-top: 0;
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 0 2px 2px #a4a4a4;
+  }
+}
+@media (max-width: 360px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper.left {
+    border-bottom: solid 1px #a4a4a4;
+    height: 240px;
+    top: 0;
+    padding-top: 0;
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 0 2px 2px #a4a4a4;
+  }
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper div.list_wrapper {
+  text-align: left;
+  left: 0;
+  padding: 20px;
+  /*   @media (max-width: 500px){
+       padding-top:10;
+       padding-bottom:10;
+     }*/
+}
+@media (max-width: 850px) and (min-width: 360px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper div.list_wrapper {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 360px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper div.list_wrapper {
+    margin-left: 5px;
+    padding: 10px;
+  }
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper div.list_wrapper img {
+  width: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper div.list_wrapper p {
+  user-select: text;
+  color: #a4a4a4;
+  left: 0;
+  margin-left: 20;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 200px;
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper.right {
+  width: 59%;
+  text-align: left;
+  height: 500px;
+  vertical-align: top;
+}
+@media (max-width: 850px) and (min-width: 600px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper.right {
+    width: 55%;
+  }
+}
+@media (max-width: 600px) {
+  div#mid3_wrapper div.main_wrapper div.sub_wrapper.right {
+    width: 100%;
+  }
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper.right input {
+  outline: none;
+  left: 0;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a4a4a4;
+  text-transform: none;
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper.right textarea {
+  outline: none;
+  left: 0;
+  resize: vertical;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a4a4a4;
+  text-transform: none;
+  height: 200px;
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper.right a.button {
+  border: solid 2px black;
+  top: 60px;
+  position: relative;
+  color: black;
+}
+div#mid3_wrapper div.main_wrapper div.sub_wrapper.right a.button:hover {
+  color: white;
+  border: solid 2px #0075dd;
+  background: #0075dd;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black;
+  text-transform: uppercase;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+  text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: black;
+  text-transform: uppercase;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: black;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=mid3.css.map */

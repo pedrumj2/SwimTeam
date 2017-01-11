@@ -1,0 +1,114 @@
+
+
+<html id ="contacts">
+  
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <link rel="stylesheet" type="text/css" href="css/wrapper.css">
+  <link rel="stylesheet" type="text/css" href="css/mid3.css">
+  <link rel="stylesheet" type="text/css" href="css/contacts.css">
+  <link rel="stylesheet" type="text/css" href="css/button.css">
+  <script src="js/scriptsC.js"></script>
+  <script src="js/Utility.js"></script>
+  <script src="js/SmoothScroll/SmoothScroll.js"></script>
+  <script src="js/jquery.js"></script>
+    <script src="js/menu.js"></script>
+  <meta name="viewport" content="width=device-width">
+  <div id = "menu_wrapper" class = "scrolled">
+    <div class = "menu">
+      <ul>
+        <li><a href = "index.html">home</a></li>
+        <li><a href = "pricing.html">Membership</a></li>
+        <li><a href = "contacts.html">location</a></li>
+        <li><a href = "contacts.html">contacts</a></li>
+      </ul>
+     
+    </div>
+     <div class = "menu2">
+        <div class = "stripes">
+          <div class = "stripe">
+          </div>
+          <div class = "stripe">
+          </div>
+          <div class = "stripe">
+          </div>
+        </div>
+        <div class = "item_wrapper">
+          <div class = "menu_item">
+            <a class = "menu_item" href = "index.html">home</a>
+          </div>
+          <div class = "border"></div>
+          <div class = "menu_item">
+            <a class = "menu_item" href = "pricing.html">Membership</a>
+          </div>
+          <div class = "border"></div>
+          <div class = "menu_item">
+            <a class = "menu_item" href = "contacts.html">location</a>
+          </div>
+          <div class = "border"></div>
+          <div class = "menu_item">
+            <a class = "menu_item" href = "contacts.html">contacts</a>
+          </div>
+          <div class = "border"></div>
+          <div class = "menu_end">
+          </div>
+        </div>
+      </div>
+  </div>
+  
+ 
+<div id = "mid3_wrapper">
+   <div id="map"></div>
+        <script>
+      function initMap() {
+        var uluru = {lat: 43.658446,  lng: -79.379217};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2-nVrj3SQedhdXmpSikkkR6qEnJIfDF4&callback=initMap"
+          async defer>
+        </script>
+      <div class = "main_wrapper">
+    <h2>Contacts</h2>
+    <div class = "sub_wrapper left">
+      <div class = "list_wrapper">
+        <img class = "location" src = "Pics/icons/3.svg">
+        <p class = "location">
+          50 Gould St, Toronto, ON M5B 2K3
+        </p>
+      </div>
+    <div class = "list_wrapper">
+      <img class = "location" src = "Pics/icons/1.svg">
+      <p class = "location">
+        rpipher@ryerson.ca 
+      </p>
+    </div>
+    <div class = "list_wrapper">
+      <img class = "location" src = "Pics/icons/2.svg">
+      <p class = "location">
+        For inquiries about the Ryerson Athletic Center:         
+        <br><a href="tel:416-979-5094">+(416) 979-5096</a> 
+      </p>
+    </div>
+    </div><div class = "sub_wrapper right">
+      <input type = "text" placeholder = "name">
+      </input>
+      <input type = "text" placeholder = "email">
+      </input>
+      <textarea class = "email" type = "text" placeholder = "message"></textarea>
+      <a class = "button">Send</a>
+    </div>
+  </div>
+
+  </div>
+ 
+
+</html>

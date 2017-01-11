@@ -1,0 +1,112 @@
+@import "variables";
+
+html{
+
+   animation: x 1s ease-in;
+   &#price{
+     animation:x 0.5s linear;
+   } 
+   &#contacts{
+     animation:x 0.5s linear;
+   }
+}
+body{
+    margin:0;
+    text-align:center;
+    user-select: none; 
+}
+
+
+div.overlay{
+ 
+  overflow:hidden;
+  position:relative;
+  display:inline-block;
+  z-index:1;
+  width:100%;
+  height: 70vw;
+  transition:0.5s;
+  @media  (max-width: 879px) and (min-width: 530px){
+    height: 600px;
+  }
+  @media  (max-width: 530px) and (min-width: 500px) {
+    height: 85vw;
+  
+    
+  }
+  @media  (max-width: 500px) and (min-width: 360px) {
+    height: 100vw;
+  
+    
+  }
+    @media  (max-width: 360px)  {
+       height: 130vw;
+  }
+  & div.main_wrapper{
+      text-align:left;
+      margin:0;
+      & h1 {
+        margin-top:200px;
+        display:inline-block;
+        position:relative;
+        color:$H1white;
+        width:700px;
+        @media (min-width: 780px)  and (max-width: 1023px) {
+          width:80%;
+        }
+        @media (min-width: 768px)  and (max-width: 780px) {
+          width:90%;
+        }
+        @media  (max-width: 768px) and (max-width: 603px){
+          margin-top:100px;
+          width:60%;
+        }
+        @media  (max-width: 603px)  {
+             margin-top:100px;
+              width:100%;
+         }
+      }  
+
+      & p {
+        color :$H1white;
+        width:50%;
+        @media (min-width: 768px)  and (max-width: 1023px) {
+           width:70%;
+        }
+        @media  (max-width: 768px) {
+          width:100%;
+        }
+
+      }
+
+      & a.button{
+        border:solid 2px $H1white;
+        color: $H1white;
+        position:relative;
+        display:inline-block;
+        transition:0.4s ease;
+        margin-top:20px;
+        &:hover{
+          border:solid 2px $buttonBlue;
+          background: $buttonBlue;
+          color:rgba(255, 255, 255, 0.78);
+        }
+      }
+   }
+   
+}
+
+@keyframes x {
+  from {
+    opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Light.ttf");
+  /* IE9 Compat Modes */
+  font-weight: 300; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.ttf");
+  /* IE9 Compat Modes */
+  font-weight: 400; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Semibold.ttf");
+  /* IE9 Compat Modes */
+  font-weight: 600; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-bold.ttf");
+  /* IE9 Compat Modes */
+  font-weight: 700; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700; }
+h1 {
+  font-family: 'Montserrat',  'arial';
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+      font-size: 56px; } }
+  @media (max-width: 768px) and (min-width: 400px) {
+    h1 {
+      font-size: 32px; } }
+  @media (max-width: 400px) {
+    h1 {
+      font-size: 24px; } }
+
+h2 {
+  font-family: 'Montserrat',  'arial';
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    h2 {
+      font-size: 32px; } }
+  @media (max-width: 768px) and (min-width: 400px) {
+    h2 {
+      font-size: 28px; } }
+  @media (max-width: 400px) {
+    h2 {
+      font-size: 24px; } }
+
+h4 {
+  font-family: 'Montserrat',  'arial';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  @media (max-width: 768px) and (min-width: 360px) {
+    h4 {
+      font-size: 18px; } }
+  @media (max-width: 360px) {
+    h4 {
+      font-size: 16px; } }
+
+td, h5 {
+  font-family: 'Montserrat',  'arial';
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px; }
+  @media (max-width: 768px) {
+    td, h5 {
+      font-size: 16px; } }
+
+#menu_wrapper li, div#cred_wrapper a {
+  font-family: 'Montserrat',  'arial';
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+a.menu_item {
+  font-family: 'Montserrat',  'arial';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px; }
+
+div#cred_page_wrapper {
+  font-family: 'Open Sans',  'arial';
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px; }
+
+p {
+  font-family: 'Open Sans',  'arial';
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px; }
+
+ul {
+  font-family: 'Open Sans',  'arial';
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px; }
+
+input, textarea, h3 {
+  font-family: 'Montserrat',  'arial';
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  @media (max-width: 768px) {
+    input, textarea, h3 {
+      font-size: 14px; } }
+
+a.button {
+  font-family: 'Montserrat',  'arial';
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  @media (max-width: 768px) {
+    a.button {
+      font-size: 14px; } }
+
+div#pricing_wrapper p.title {
+  font-family: 'Open Sans',  'arial';
+  color: black;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  @media (max-width: 768px) and (min-width: 400px) {
+    div#pricing_wrapper p.title {
+      font-size: 32px; } }
+  @media (max-width: 400px) {
+    div#pricing_wrapper p.title {
+      font-size: 24px; } }
+div#pricing_wrapper p.title_def {
+  font-family: 'Open Sans',  'arial';
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+  @media (max-width: 768px) and (min-width: 400px) {
+    div#pricing_wrapper p.title_def {
+      font-size: 16px; } }
+div#pricing_wrapper .title p.title {
+  font-size: 32px; }
+  @media (max-width: 768px) and (min-width: 400px) {
+    div#pricing_wrapper .title p.title {
+      font-size: 28px; } }
+div#pricing_wrapper .info p.title {
+  font-size: 32px; }
+
+/*# sourceMappingURL=fonts.css.map */

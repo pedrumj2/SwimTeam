@@ -1,0 +1,100 @@
+@import "variables";
+
+div#swap1{
+  will-change:transform;
+  width:100%;
+
+  & div.slider_wrapper{
+    position:absolute;
+    left:0;
+    width:100%;
+    margin-top:-20px;
+    height:1500px;
+    display:inline-block;
+    opacity:1;
+    animation-duration: 9s;
+    animation-timing-function:  ease;
+    animation-name: slideshow;
+    animation-iteration-count: infinite;
+    will-change:opacity;
+    &.active{
+        opacity:1;
+    }
+  
+    &.first, &.second,  &.third {
+       @media  (max-width: 553px) and (min-width:453px) {
+          width:180%;
+          margin-left:-40%;
+       }
+       @media  (max-width: 453px) {
+          width:160%;
+          margin-left:-40%;
+      }
+    }
+    &.first {
+      background:linear-gradient($featureOverlay,  $featureOverlay),  url('../Pics/1.jpeg') no-repeat;
+      background-size:140%; 
+      animation-delay :0s;
+      z-index:2;
+   
+    }
+    &.second {
+      background:linear-gradient($featureOverlay,  $featureOverlay), url('../Pics/2.jpeg') no-repeat;
+      animation-delay :3s;
+      z-index:-1;
+      background-size:140%; 
+
+    }
+    &.third {
+      background:linear-gradient($featureOverlay,  $featureOverlay), url('../Pics/3.jpeg') no-repeat;
+      animation-delay :6s;
+      z-index:-2; 
+      background-size:140%; 
+
+    }
+  }
+
+  a.arrow{
+    visibility:hidden;
+    width:30px;
+    height:30px;
+    color:$lightgrey;
+    position:absolute;
+    border-right:solid 2px;
+    border-bottom: solid 2px;
+    margin-top:28%;
+    cursor:pointer;
+    top:0;
+    opacity:0.5;
+
+    &.right{
+      transform: rotate(-45deg);
+      left:100%;
+      margin-left:-7%;
+    }   
+
+    &.left{
+      transform: rotate(135deg);
+      left:4%;
+    }
+  }
+}
+
+@keyframes slideshow {
+  0% {
+    opacity:1;
+  }
+  23% {
+    opacity:1;
+  }
+  33% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+

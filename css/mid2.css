@@ -1,0 +1,129 @@
+div#mid2_wrapper {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  text-align: center; }
+  @media (min-width: 768px) and (max-width: 1220px) {
+    div#mid2_wrapper {
+      height: 650px; } }
+  @media (max-width: 768px) and (min-width: 438px) {
+    div#mid2_wrapper {
+      height: 450px; } }
+  @media (max-width: 436px) {
+    div#mid2_wrapper {
+      height: 400px; } }
+  div#mid2_wrapper div.overlay {
+    height: 100%;
+    background: #191954; }
+    div#mid2_wrapper div.overlay img {
+      opacity: 0.3;
+      margin-top: -700px;
+      will-change: transform;
+      position: absolute;
+      left: 0;
+      width: 130%; }
+      @media (min-width: 936px) and (max-width: 1024px) {
+        div#mid2_wrapper div.overlay img {
+          width: 130%;
+          margin-top: -620px; } }
+      @media (min-width: 768px) and (max-width: 936px) {
+        div#mid2_wrapper div.overlay img {
+          width: 150%;
+          margin-top: -620px; } }
+      @media (max-width: 768px) and (min-width: 438px) {
+        div#mid2_wrapper div.overlay img {
+          width: 200%;
+          margin-top: -520px; } }
+      @media (max-width: 436px) {
+        div#mid2_wrapper div.overlay img {
+          width: 350%;
+          margin-left: -50%;
+          margin-top: -400px; } }
+  div#mid2_wrapper div.main_wrapper {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+    top: 0; }
+    @media (max-width: 900px) {
+      div#mid2_wrapper div.main_wrapper {
+        padding-left: 0;
+        padding-right: 0; } }
+    div#mid2_wrapper div.main_wrapper h2 {
+      color: #dddddd; }
+    div#mid2_wrapper div.main_wrapper div#overlay1 {
+      width: 800px;
+      height: 450px;
+      z-index: 99;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.42);
+      background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.45), rgba(25, 25, 84, 0) 90%); }
+      @media (min-width: 768px) and (max-width: 900px) {
+        div#mid2_wrapper div.main_wrapper div#overlay1 {
+          width: 90%;
+          margin-left: 0; } }
+      @media (max-width: 768px) {
+        div#mid2_wrapper div.main_wrapper div#overlay1 {
+          background: none;
+          box-shadow: none;
+          width: 100%; } }
+      div#mid2_wrapper div.main_wrapper div#overlay1 h5 {
+        color: #dddddd;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: 40px; }
+        @media (max-width: 768px) {
+          div#mid2_wrapper div.main_wrapper div#overlay1 h5 {
+            margin-top: 1%; } }
+    div#mid2_wrapper div.main_wrapper table {
+      border: none;
+      position: relative;
+      display: inline-block;
+      width: auto;
+      vertical-align: top;
+      margin-top: 20px;
+      left: 0;
+      overflow: hidden;
+      width: 600px;
+      border-collapse: collapse; }
+      @media (max-width: 768px) {
+        div#mid2_wrapper div.main_wrapper table {
+          width: 90%;
+          text-align: center;
+          display: table;
+          width: 90%;
+          margin-left: 5%; } }
+      @media (max-width: 768px) {
+        div#mid2_wrapper div.main_wrapper table tbody {
+          width: 100%;
+          text-align: center;
+          position: relative; } }
+      div#mid2_wrapper div.main_wrapper table tbody tr {
+        border-bottom: solid 1px #dddddd;
+        height: 60px; }
+        @media (max-width: 768px) {
+          div#mid2_wrapper div.main_wrapper table tbody tr {
+            height: 40px;
+            width: 100%; } }
+        div#mid2_wrapper div.main_wrapper table tbody tr td {
+          color: #dddddd;
+          vertical-align: bottom;
+          padding-bottom: 5px; }
+          @media (max-width: 768px) {
+            div#mid2_wrapper div.main_wrapper table tbody tr td {
+              text-align: left; } }
+          div#mid2_wrapper div.main_wrapper table tbody tr td h4 {
+            color: #dddddd;
+            text-align: left;
+            width: 200px;
+            margin: 0;
+            position: relative; }
+            @media (max-width: 768px) {
+              div#mid2_wrapper div.main_wrapper table tbody tr td h4 {
+                width: auto; } }
+          div#mid2_wrapper div.main_wrapper table tbody tr td.day {
+            padding-top: 80px; }
+          div#mid2_wrapper div.main_wrapper table tbody tr td.time {
+            margin-left: 40px; }
+
+/*# sourceMappingURL=mid2.css.map */

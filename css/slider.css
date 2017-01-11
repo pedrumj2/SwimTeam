@@ -1,0 +1,74 @@
+div#swap1 {
+  will-change: transform;
+  width: 100%; }
+  div#swap1 div.slider_wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: -20px;
+    height: 1500px;
+    display: inline-block;
+    opacity: 1;
+    animation-duration: 9s;
+    animation-timing-function: ease;
+    animation-name: slideshow;
+    animation-iteration-count: infinite;
+    will-change: opacity; }
+    div#swap1 div.slider_wrapper.active {
+      opacity: 1; }
+    @media (max-width: 553px) and (min-width: 453px) {
+      div#swap1 div.slider_wrapper.first, div#swap1 div.slider_wrapper.second, div#swap1 div.slider_wrapper.third {
+        width: 180%;
+        margin-left: -40%; } }
+    @media (max-width: 453px) {
+      div#swap1 div.slider_wrapper.first, div#swap1 div.slider_wrapper.second, div#swap1 div.slider_wrapper.third {
+        width: 160%;
+        margin-left: -40%; } }
+    div#swap1 div.slider_wrapper.first {
+      background: linear-gradient(rgba(45, 43, 134, 0.34), rgba(45, 43, 134, 0.34)), url("../Pics/1.jpeg") no-repeat;
+      background-size: 140%;
+      animation-delay: 0s;
+      z-index: 2; }
+    div#swap1 div.slider_wrapper.second {
+      background: linear-gradient(rgba(45, 43, 134, 0.34), rgba(45, 43, 134, 0.34)), url("../Pics/2.jpeg") no-repeat;
+      animation-delay: 3s;
+      z-index: -1;
+      background-size: 140%; }
+    div#swap1 div.slider_wrapper.third {
+      background: linear-gradient(rgba(45, 43, 134, 0.34), rgba(45, 43, 134, 0.34)), url("../Pics/3.jpeg") no-repeat;
+      animation-delay: 6s;
+      z-index: -2;
+      background-size: 140%; }
+  div#swap1 a.arrow {
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+    color: #a4a4a4;
+    position: absolute;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    margin-top: 28%;
+    cursor: pointer;
+    top: 0;
+    opacity: 0.5; }
+    div#swap1 a.arrow.right {
+      transform: rotate(-45deg);
+      left: 100%;
+      margin-left: -7%; }
+    div#swap1 a.arrow.left {
+      transform: rotate(135deg);
+      left: 4%; }
+
+@keyframes slideshow {
+  0% {
+    opacity: 1; }
+  23% {
+    opacity: 1; }
+  33% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=slider.css.map */

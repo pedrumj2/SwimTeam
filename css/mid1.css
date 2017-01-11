@@ -1,0 +1,68 @@
+div#mid1_wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  @media (max-width: 1024px) {
+    div#mid1_wrapper div.inner_wrapper {
+      text-align: left; } }
+  div#mid1_wrapper div.inner_wrapper div.container_wrapper {
+    margin-top: 20px;
+    height: auto;
+    width: 333px;
+    display: inline-block;
+    vertical-align: top; }
+    @media (max-width: 1024px) and (min-width: 600px) {
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper {
+        width: 50%; } }
+    @media (max-width: 600px) and (min-width: 450px) {
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper {
+        width: 100%; } }
+    @media (max-width: 450px) and (min-width: 360px) {
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper {
+        width: 100%; } }
+    @media (max-width: 360px) {
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper {
+        width: 100%; } }
+    div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container {
+      width: 75%;
+      transition: 0.3s ease;
+      box-shadow: 0px 1px 3px #808080;
+      height: 300px;
+      padding-left: 40px;
+      padding-right: 20px;
+      text-align: left; }
+      @media (max-width: 1024px) and (min-width: 600px) {
+        div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container {
+          width: 78%; } }
+      @media (max-width: 600px) and (min-width: 450px) {
+        div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container {
+          width: 90%;
+          padding-right: 5%;
+          padding-left: 5%;
+          height: 200px; } }
+      @media (max-width: 450px) {
+        div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container {
+          width: 90%;
+          padding-right: 5%;
+          padding-left: 5%;
+          height: 220px; } }
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container img {
+        width: 30px;
+        vertical-align: top;
+        margin-top: 22px;
+        margin-right: 10px; }
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container h3 {
+        vertical-align: top;
+        margin-top: 20px;
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        width: 200px; }
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container p {
+        color: #a4a4a4; }
+      div#mid1_wrapper div.inner_wrapper div.container_wrapper div.container:hover {
+        box-shadow: 0px 8px 24px #808080; }
+
+/*# sourceMappingURL=mid1.css.map */

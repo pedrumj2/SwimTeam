@@ -1,0 +1,17 @@
+div#cred_wrapper {
+  text-align: right;
+  height: 40px;
+  width: 100%; }
+  div#cred_wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 20px; }
+
+div#cred_page_wrapper {
+  top: 60px;
+  position: relative;
+  text-align: left;
+  margin-left: 20px; }
+
+/*# sourceMappingURL=credits.css.map */

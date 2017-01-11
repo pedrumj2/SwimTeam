@@ -1,0 +1,95 @@
+div#menu_wrapper {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  z-index: 999;
+  text-align: left;
+  transition: 0.5s;
+  text-align: right; }
+  @media (max-width: 615px) {
+    div#menu_wrapper {
+      background: white;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.42);
+      position: fixed;
+      top: 0; }
+      div#menu_wrapper div.menu {
+        height: 50px; } }
+  div#menu_wrapper div.menu2 {
+    z-index: 999;
+    visibility: hidden; }
+    @media (max-width: 615px) {
+      div#menu_wrapper div.menu2 {
+        visibility: visible; } }
+    div#menu_wrapper div.menu2 div.item_wrapper {
+      height: 0;
+      overflow: hidden;
+      transition: 0.5s; }
+      div#menu_wrapper div.menu2 div.item_wrapper div.menu_end {
+        height: 20px;
+        background: white; }
+      div#menu_wrapper div.menu2 div.item_wrapper div.border {
+        border-bottom: solid 1px black;
+        width: 100%;
+        background: white; }
+      div#menu_wrapper div.menu2 div.item_wrapper div.menu_item {
+        width: 100%;
+        height: 20px;
+        background: white;
+        text-align: left;
+        padding-top: 20px; }
+        div#menu_wrapper div.menu2 div.item_wrapper div.menu_item a.menu_item {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: black;
+          margin-left: 10px; }
+    div#menu_wrapper div.menu2 div.stripes {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      margin: 0;
+      top: 12px;
+      left: 100%;
+      margin-left: -45px; }
+      div#menu_wrapper div.menu2 div.stripes div.stripe {
+        width: 100%;
+        background: black;
+        height: 3px;
+        position: relative;
+        display: block;
+        margin-top: 7px; }
+  div#menu_wrapper div.menu {
+    width: 600px;
+    display: inline-block;
+    position: relative; }
+    div#menu_wrapper div.menu ul {
+      list-style-type: none;
+      color: white;
+      text-transform: uppercase; }
+      @media (max-width: 615px) {
+        div#menu_wrapper div.menu ul {
+          visibility: hidden; } }
+      div#menu_wrapper div.menu ul li {
+        width: auto;
+        position: relative;
+        display: inline-block;
+        font-weight: 400;
+        margin: 20px;
+        transition: 0.3s; }
+        div#menu_wrapper div.menu ul li:hover {
+          opacity: 0.7; }
+        div#menu_wrapper div.menu ul li a {
+          text-decoration: none;
+          color: inherit; }
+  div#menu_wrapper.scrolled {
+    background: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.42);
+    position: fixed;
+    top: 0; }
+    div#menu_wrapper.scrolled div.menu {
+      height: 50px; }
+      div#menu_wrapper.scrolled div.menu ul {
+        height: 50px;
+        margin: 0;
+        color: black; }
+
+/*# sourceMappingURL=menu.css.map */
