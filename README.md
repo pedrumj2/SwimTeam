@@ -1,4 +1,4 @@
-# swimteam
+# Swimteam
 A practice website I wrote for my swim team. The website was written from scratch using Html, css and javascript. 
 One of my main focuses on this project was to design a page that:
 
