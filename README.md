@@ -1,10 +1,12 @@
 # swimteam
 A practice website I wrote for my swim team. The website was written from scratch using Html, css and javascript. 
 One of my main focuses on this project was to design a page that:
+
 1. Is responsive
 2. Uses lots of javascript and css animations and effects while maintaining high performance.
 
 Some of the animations and effects used on the page were:
+
 1. Multiple parallax effects
 2. Frost Glass effect
 3. Slideshows
