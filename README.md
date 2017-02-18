@@ -19,7 +19,6 @@ image below is the performance of the webpage. While there were some cases with 
 ![](/Pics/results/4.png)
 ![](/Pics/results/5.png)
 ![](/Pics/results/6.png)
-![](/Pics/results/1.png)
 
 
 
